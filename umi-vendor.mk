@@ -88,6 +88,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/lib/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.misys@2.0.so \
     vendor/xiaomi/umi/proprietary/lib/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.misys@3.0.so \
     vendor/xiaomi/umi/proprietary/lib/vendor.xiaomi.hardware.vibratorfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.vibratorfeature@1.0.so \
+    vendor/xiaomi/umi/proprietary/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.0.so \
+    vendor/xiaomi/umi/proprietary/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.0.so \
     vendor/xiaomi/umi/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/xiaomi/umi/proprietary/lib64/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOmxMux.so \
     vendor/xiaomi/umi/proprietary/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblocationservice_jni.so \
