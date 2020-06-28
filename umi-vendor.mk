@@ -176,8 +176,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/product/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar \
     vendor/xiaomi/umi/proprietary/product/framework/vendor.qti.latency-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.latency-V2.0-java.jar \
     vendor/xiaomi/umi/proprietary/product/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/xiaomi/umi/proprietary/vendor/lib/libhidlbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhidlbase.so
-    vendor/xiaomi/umi/proprietary/vendor/lib64/libhidlbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhidlbase.so
+    vendor/xiaomi/umi/proprietary/vendor/lib/libhidlbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhidlbase.so \
+    vendor/xiaomi/umi/proprietary/vendor/lib64/libhidlbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhidlbase.so \
     vendor/xiaomi/umi/proprietary/product/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/umi/proprietary/product/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/umi/proprietary/product/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@2.0.so \
@@ -303,7 +303,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
     vendor/xiaomi/umi/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/xiaomi/umi/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
-    vendor/xiaomi/umi/proprietary/vendor/bin/antdtx:$(TARGET_COPY_OUT_VENDOR)/bin/antdtx \
     vendor/xiaomi/umi/proprietary/vendor/bin/athdiag:$(TARGET_COPY_OUT_VENDOR)/bin/athdiag \
     vendor/xiaomi/umi/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
     vendor/xiaomi/umi/proprietary/vendor/bin/audioshell_service:$(TARGET_COPY_OUT_VENDOR)/bin/audioshell_service \
@@ -406,7 +405,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/xiaomi/umi/proprietary/vendor/bin/mdm_helper:$(TARGET_COPY_OUT_VENDOR)/bin/mdm_helper \
     vendor/xiaomi/umi/proprietary/vendor/bin/mdm_helper_proxy:$(TARGET_COPY_OUT_VENDOR)/bin/mdm_helper_proxy \
-    vendor/xiaomi/umi/proprietary/vendor/bin/mi_ic:$(TARGET_COPY_OUT_VENDOR)/bin/mi_ic \
     vendor/xiaomi/umi/proprietary/vendor/bin/mi_thermald:$(TARGET_COPY_OUT_VENDOR)/bin/mi_thermald \
     vendor/xiaomi/umi/proprietary/vendor/bin/minidump64:$(TARGET_COPY_OUT_VENDOR)/bin/minidump64 \
     vendor/xiaomi/umi/proprietary/vendor/bin/mlid:$(TARGET_COPY_OUT_VENDOR)/bin/mlid \
@@ -520,20 +518,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/ai_enhance.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ai_enhance.dlc \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_tele.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele.config \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x.config \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_iso100.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_iso100.config \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom20x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_iso100_zoom20x.config \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom30x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_iso100_zoom30x.config \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_iso100_zoom40x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_iso100_zoom40x.config \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_moon.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_moon.config \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_zoom20x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_zoom20x.config \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_zoom30x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_zoom30x.config \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_tele4x_zoom40x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele4x_zoom40x.config \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_tele_iso100.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele_iso100.config \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/almalence_sr_params_wide.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide.config \
-    vendor/xiaomi/umi/proprietary/vendor/etc/camera/beauty_ui9_intelligent_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_ui9_intelligent_params.config \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/body_slim_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/body_slim_ui9_params.config \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/bokehParams.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bokehParams.json \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
@@ -624,7 +610,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/imsqmidaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsqmidaemon.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/imsrcsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsrcsd.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
-    vendor/xiaomi/umi/proprietary/vendor/etc/init/init.batteryd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batteryd.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mi_thermald.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/init.qdmastats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qdmastats.rc \
@@ -635,7 +620,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/ipacm-diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm-diag.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/ipacm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm.rc \
-    vendor/xiaomi/umi/proprietary/vendor/etc/init/mi_ic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ic.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/minidump.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/minidump.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
@@ -674,7 +658,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/vendor.qti.secure_element@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.0-service.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/vendor.qti.sla.service@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.sla.service@1.0-service.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/vendor.rongcard.hardware.eid@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.rongcard.hardware.eid@1.0-service.rc \
-    vendor/xiaomi/umi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.antdtx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.antdtx@1.0-service.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc \
     vendor/xiaomi/umi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc \
