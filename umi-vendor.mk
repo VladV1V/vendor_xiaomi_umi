@@ -53,6 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar \
     vendor/xiaomi/umi/proprietary/framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar \
     vendor/xiaomi/umi/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/xiaomi/umi/proprietary/lib/libashmemd_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libashmemd_client.so \
+    vendor/xiaomi/umi/proprietary/lib64/libashmemd_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libashmemd_client.so \
     vendor/xiaomi/umi/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/xiaomi/umi/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
     vendor/xiaomi/umi/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
